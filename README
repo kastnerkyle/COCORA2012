@@ -1,0 +1,15 @@
+REQUIRED PACKAGES:
+PyQt4
+numpy
+scipy
+matplotlib
+
+On Ubuntu 11.10 I installed these by doing 
+sudo apt-get install python-pyqt4 python-numpy python-matplotlib python-scipy
+
+On Fedora 16 I installed these by doing
+sudo yum install PyQt4 numpy scipy python-matplotlib
+
+By default, this display uses the FPATH string in gui.py for the file to display. I hope to eventually add a popup on launch to choose the file path parameter.
+
+I plan on updating this readme with a more helpful how-to soon - with information on how to put your algorithms into the framework, general operation.
